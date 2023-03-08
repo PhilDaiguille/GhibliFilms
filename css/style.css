@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+/* RESET 2022 */
+html{
+	font-size:62.5%;
+	scroll-behavior:smooth;
+}
+body{
+	font:1.6rem 'Nunito', sans-serif;
+	margin:0;
+	background-color: #222;
+}
+section,figure,h1,h2,h3,h4,h5,h6,ol,p,ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+*{ 
+	box-sizing:border-box;
+	color-scheme: dark;
+}
+.material-symbols-outlined, .film figure figcaption p:last-child{
+	vertical-align: text-bottom;
+	margin-right: 1rem;
+}
+button{
+	padding:0;
+	border:0;
+	background-color:transparent;
+} 
+img{
+	width: 100%;
+	object-fit: cover;
+}
+/*HEADER */
+header, footer{
+	background-color: #111;
+	padding: 1.5rem;
+	text-align: center;
+}
+header h1{
+	font-weight: 1000;
+}
+
+
+/* MAIN */
+main{
+	padding: 4rem;
+}
+.film figure{
+	display: flex;
+	background-color: #333;
+	padding: 2rem;
+	border-radius: 1rem;
+	margin: 1rem auto;
+	align-items: center;
+	
+}
+.film figure figcaption{
+	padding: 2rem;
+}
+.film figure figcaption h2{
+	font-weight: 1000;
+	font-size: 5rem;
+}
+.film figure figcaption h3{
+	font-weight: 700;
+	font-size: 3rem;
+}
+.film figure figcaption time{
+	color: #b1b1b1;
+	font-weight: 700;
+	padding: 1rem 0;
+}
+.film figure figcaption p{
+	background-color: #444;
+	border-radius: .5rem;
+	margin: 1rem auto;
+	padding: 2rem;
+}
+.film img{
+	max-width: 30rem;
+	border-radius: 1rem;
+}
+.film figure figcaption p:last-child{
+	background-color: #33a43a;
+	width: fit-content;
+	font-weight: 900;
+	float: left;
+	border-radius: 1rem;
+}
+
+
+/* FOOTER */
+
+
+
+/* @Copyright - PhilDaiguille*/
