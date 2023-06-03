@@ -50,6 +50,15 @@ header h1{
 main{
 	padding: 4rem;
 }
+input[type="text"]{
+	width: 100%;
+	border-radius: 1rem;
+	padding: 1.5rem .5rem;
+	border: none;
+	color: #000;
+	font:1.6rem 'Nunito', sans-serif;
+	background-color: #f0f0f1;
+}
 .film figure{
 	display: flex;
 	background-color: #333;
@@ -64,11 +73,11 @@ main{
 }
 .film figure figcaption h2{
 	font-weight: 1000;
-	font-size: 5rem;
+	font-size: 4rem;
 }
 .film figure figcaption h3{
 	font-weight: 700;
-	font-size: 3rem;
+	font-size: 2.5rem;
 }
 .film figure figcaption time{
 	color: #b1b1b1;
@@ -79,10 +88,10 @@ main{
 	background-color: #444;
 	border-radius: .5rem;
 	margin: 1rem auto;
-	padding: 2rem;
+	padding: 1.5rem 2rem;
 }
 .film img{
-	max-width: 30rem;
+	max-width: 25rem;
 	border-radius: 1rem;
 }
 .film figure figcaption p:last-child{
